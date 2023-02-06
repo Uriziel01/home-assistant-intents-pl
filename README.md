@@ -36,7 +36,7 @@ https://www.home-assistant.io/docs/configuration/customizing-devices/#device-cla
   - weather
   - zone
   
-  Script to fetch dmoains from ha cli:
+  Script to fetch domains from ha cli:
   ```
 {%- for d in states | groupby('domain') %}
   {% if loop.first %}{{loop.length}} Domains:
